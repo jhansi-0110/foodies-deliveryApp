@@ -1,0 +1,9 @@
+target/
+.git/
+.mvn/
+*.log
+.settings/
+.project
+.classpath
+bin/
+food-images/

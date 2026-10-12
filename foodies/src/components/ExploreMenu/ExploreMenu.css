@@ -1,0 +1,53 @@
+.explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu-list {
+  scrollbar-width: none;
+}
+
+.explore-menu-list-item img {
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.explore-menu-list-item img:hover {
+  transform: scale(1.04);
+}
+
+.explore-menu-list-item p {
+  color: var(--text-muted, #64748b);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.scroll-icon {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #94a3b8;
+  transition: color 0.15s ease;
+}
+
+.scroll-icon:hover {
+  color: #0f172a;
+}
+
+.explore-menu hr {
+  margin: 1.5rem 0;
+  height: 1px;
+  background-color: var(--border-subtle, #e2e8f0);
+  border: none;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid transparent;
+}
+
+.rounded-circle-active {
+  border: 2px solid #0f172a !important;
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.12);
+  padding: 3px;
+}
